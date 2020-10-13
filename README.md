@@ -1,4 +1,4 @@
-# TSGRAM
+# T-GSRAM
 
 This is a matlab package for "Imaging Genetics Study Based on a Temporal Group Sparse Regression and Additive Model for Biomarker Detection of Alzheimer’s Disease"
 
@@ -6,11 +6,11 @@ This is a matlab package for "Imaging Genetics Study Based on a Temporal Group S
 Author: Xiumei Chen;  Meiyan Huang
 @Southern Medical University
 
-"TSGRAM" is a package written in Mtalab and the name stands for "Temporal Group Sparse Regression and Additive Model"
+"T-GSRAM" is a package written in Mtalab and the name stands for "Temporal Group Sparse Regression and Additive Model"
 
 This repository contains the following files:
 
-TSGRAM.m is the main function of the TSGRAM package.
+TSGRAM.m is the main function of the T-GSRAM package.
 generate_options.m is an options struct, with the following fields:  "outputFile":  name of file in outputDir in which to store results;  "lambdaVals.v": vector of lambda values to try;  "numSnps": number of SNPs to select;  "kernelType":type of kernel to use for smoother matrix;  "bandScaler": caler applied to bandwidth used for smoother matrix";  "maxIter": maximum number of backfitting iterations;  "convgTol": tolerance for backfitting stopping criterion;  
 
 
